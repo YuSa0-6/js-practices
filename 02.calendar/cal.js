@@ -1,4 +1,5 @@
 import minimist from "minimist";
+
 const argv = minimist(process.argv.slice(2));
 const today = new Date();
 const year = argv.y || today.getFullYear();
